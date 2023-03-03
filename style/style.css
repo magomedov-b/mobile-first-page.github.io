@@ -1,0 +1,241 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat',
+    sans-serif;
+  font-size: 21px;
+  color: #000;
+  background: #fff;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 405px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+
+.main-nav {
+  border: none;
+}
+
+.logo {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 58.19px;
+  color: #000000;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  color: #828282;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.lang {
+  display: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: #000;
+
+  transform: rotate(-90deg);
+  padding-left: 3px;
+}
+
+.ru {
+  color: #828282;
+}
+
+.ru::after {
+  margin: 0 3px -3px 3px;
+  display: inline-block;
+  content: '';
+  width: 3px;
+  height: 15px;
+  background-color: #000
+}
+
+.lang:hover {
+  transform: rotate(0);
+  transition: 500ms;
+}
+
+.prof {
+  margin-top: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #090909;
+  padding-right: 50%;
+}
+
+.main-img {
+  width: 100%;
+  display: inline-block;
+  padding: 75% 0%;
+  background: url(../images/BSPP2266main-pic.png) no-repeat center;
+  background-size: 100%;
+}
+
+.title {
+  display: inline-block;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.about-subtitle {
+  font-family: 'Montserrat',
+    sans-serif;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  font-style: normal;
+}
+
+.about-subtitle-copy {
+  font-family: 'Montserrat',
+    sans-serif;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  font-style: normal;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  margin-bottom: 81px;
+}
+
+.program-logo-1 {
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.program-logo-2 {
+  background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+
+.program-logo-3 {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+
+.program-name {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+
+  color: #828282;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.star-active {
+  margin-right: 12px;
+}
+
+.star-disabled {
+  margin-right: 12px;
+  color: #E5E5E5;
+}
+
+.pic {
+  padding-bottom: 78px;
+}
+
+.pic-link {
+  width: 100%;
+  display: inline-block;
+  padding-top: 202px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.pic-link1 {
+  background-image: url(../images/Слой\ 8woman\ \(1\).png);
+}
+
+.pic-link2 {
+  background-image: url(../images/reebok_webreebok\ \(1\).png);
+}
+
+.pic-link3 {
+  background-image: url(../images/reebok_webbraun\ \(1\).png);
+}
+
+.footer-btn {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  background: #000000;
+  border-radius: 50px;
+  padding: 4% 30%;
+}
+
+.socials {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  margin-right: 9%;
+}
+
+.footer-text {
+  margin: 49px 0 90px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #828282;
+}
+
